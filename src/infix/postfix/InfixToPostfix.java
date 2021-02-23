@@ -29,6 +29,7 @@ public class InfixToPostfix {
                         }
                         else{
                             stack.push(character);
+                            break;
                         }
                     }
                 }
